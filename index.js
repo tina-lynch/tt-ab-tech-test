@@ -1,7 +1,7 @@
 const axios = require('axios');
 const proxy = `https://cors-anywhere.herokuapp.com/`;
 //visit proxy first to activate access to server
-const categoriesCalll = 'https://www.adorebeauty.com.au/api/ecommerce/catalog/categories';
+const categoriesCalll = 'https://adorebeauty.com.au/api/ecommerce/catalog/categories';
 const productsCall = 'https://adorebeauty.com.au/api/ecommerce/catalog/products';
 const tableRows = document.querySelector('.table.t-row');
 const prodTable = document.querySelector('.product-table .t-row');
