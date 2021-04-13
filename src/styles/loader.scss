@@ -5,6 +5,7 @@
   width: 80px;
   height: 80px;
   overflow: hidden;
+  padding: 20vh;
   div {
     transform-origin: 40px 40px;
     animation: lds-spinner 1.2s linear infinite;
@@ -78,3 +79,13 @@
     opacity: 0;
   }
 }
+
+
+//NOTE TO SELF: could add a slide up transition when loader is finished ..
+// EG
+// .hide-loader {
+//   visibility: hidden;
+//   height: 0;
+//   padding: 0;
+//   transition:cubic-bezier(0.075, 0.82, 0.165, 1)
+// }
